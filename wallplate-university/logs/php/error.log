@@ -1,0 +1,57 @@
+[19-May-2024 16:44:55 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 16
+[19-May-2024 16:45:04 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 3
+[19-May-2024 16:45:16 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 4
+[19-May-2024 16:58:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php:16
+Stack trace:
+#0 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\michel...')
+#2 C:\Users\michelle\Local Sites\wallplate-university\app\public\index.php(17): require('C:\\Users\\michel...')
+#3 {main}
+  thrown in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 16
+[19-May-2024 17:02:44 UTC] PHP Parse error:  syntax error, unexpected token "++" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 8
+[19-May-2024 17:10:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "have_posts" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\michel...')
+#2 C:\Users\michelle\Local Sites\wallplate-university\app\public\index.php(17): require('C:\\Users\\michel...')
+#3 {main}
+  thrown in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 3
+[19-May-2024 17:10:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "have_posts" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\michel...')
+#2 C:\Users\michelle\Local Sites\wallplate-university\app\public\index.php(17): require('C:\\Users\\michel...')
+#3 {main}
+  thrown in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 3
+[19-May-2024 17:11:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "have_posts" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\michel...')
+#2 C:\Users\michelle\Local Sites\wallplate-university\app\public\index.php(17): require('C:\\Users\\michel...')
+#3 {main}
+  thrown in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 3
+[19-May-2024 17:11:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "have_posts" in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\michel...')
+#2 C:\Users\michelle\Local Sites\wallplate-university\app\public\index.php(17): require('C:\\Users\\michel...')
+#3 {main}
+  thrown in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\index.php on line 3
+[19-May-2024 18:37:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\functions.php on line 3 and at least 2 expected in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\functions.php(3): add_action()
+#1 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-settings.php(663): include('C:\\Users\\michel...')
+#2 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-config.php(103): require_once('C:\\Users\\michel...')
+#3 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-load.php(50): require_once('C:\\Users\\michel...')
+#4 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\michel...')
+#5 {main}
+  thrown in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\plugin.php on line 441
+[19-May-2024 18:38:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\functions.php on line 3 and at least 2 expected in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-content\themes\wallplate-university-theme\functions.php(3): add_action()
+#1 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-settings.php(663): include('C:\\Users\\michel...')
+#2 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-config.php(103): require_once('C:\\Users\\michel...')
+#3 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-load.php(50): require_once('C:\\Users\\michel...')
+#4 C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\michel...')
+#5 {main}
+  thrown in C:\Users\michelle\Local Sites\wallplate-university\app\public\wp-includes\plugin.php on line 441
